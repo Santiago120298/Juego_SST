@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Reciclaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Arrastra los desechos a las canecas correctas</h1>
+
+    <div id="desechos">
+        <!-- Desechos Peligrosos -->
+        <div class="desecho" draggable="true" id="bateria">🔋 Batería</div>
+        <div class="desecho" draggable="true" id="medicamento">💊 Medicamento</div>
+        <div class="desecho" draggable="true" id="quimico">🧪 Químico</div>
+        <div class="desecho" draggable="true" id="termometro">🌡️ Termómetro</div>
+        <div class="desecho" draggable="true" id="aerosol">🧴 Aerosol</div>
+
+        <!-- Cartón y Papel -->
+        <div class="desecho" draggable="true" id="libro">📚 Libro</div>
+        <div class="desecho" draggable="true" id="revista">📖 Revista</div>
+        <div class="desecho" draggable="true" id="caja-carton">📦 Caja de cartón</div>
+        <div class="desecho" draggable="true" id="bolsa-papel">🛍️ Bolsa de papel</div>
+        <div class="desecho" draggable="true" id="periodico">📰 Periódico</div>
+
+        <!-- Plástico -->
+        <div class="desecho" draggable="true" id="botella-plastico">🥤 Botella de plástico</div>
+        <div class="desecho" draggable="true" id="bolsa-plastico">🛍️ Bolsa de plástico</div>
+        <div class="desecho" draggable="true" id="juguete-plastico">🧸 Juguete de plástico</div>
+        <div class="desecho" draggable="true" id="envase-plastico">🍶 Envase de plástico</div>
+        <div class="desecho" draggable="true" id="cucharilla-plastico">🥄 Cucharilla de plástico</div>
+
+        <!-- Desechos Ordinarios -->
+        <div class="desecho" draggable="true" id="cascaras">🍌 Cáscaras</div>
+        <div class="desecho" draggable="true" id="restos-comida">🍲 Restos de comida</div>
+        <div class="desecho" draggable="true" id="pañuelos">🤧 Pañuelos</div>
+        <div class="desecho" draggable="true" id="papel-sucio">📄 Papel sucio</div>
+        <div class="desecho" draggable="true" id="ceramica-rota">🍶 Cerámica rota</div>
+    </div>
+
+    <div id="canecas">
+        <div class="caneca" id="papelera-rojo">Rojo (Peligrosos)</div>
+        <div class="caneca" id="papelera-gris">Gris (Cartón/Papel)</div>
+        <div class="caneca" id="papelera-azul">Azul (Plástico)</div>
+        <div class="caneca" id="papelera-verde">Verde (Ordinarios)</div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
