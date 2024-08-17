@@ -25,28 +25,28 @@ function drop(e) {
     const canecaId = e.target.id;
 
     if (
-        // Desechos Peligrosos
+        
         (id === 'bateria' && canecaId === 'papelera-rojo') ||
         (id === 'medicamento' && canecaId === 'papelera-rojo') ||
         (id === 'quimico' && canecaId === 'papelera-rojo') ||
         (id === 'termometro' && canecaId === 'papelera-rojo') ||
         (id === 'aerosol' && canecaId === 'papelera-rojo') ||
 
-        // Cartón y Papel
+        
         (id === 'libro' && canecaId === 'papelera-gris') ||
         (id === 'revista' && canecaId === 'papelera-gris') ||
         (id === 'caja-carton' && canecaId === 'papelera-gris') ||
         (id === 'bolsa-papel' && canecaId === 'papelera-gris') ||
         (id === 'periodico' && canecaId === 'papelera-gris') ||
 
-        // Plástico
+        
         (id === 'botella-plastico' && canecaId === 'papelera-azul') ||
         (id === 'bolsa-plastico' && canecaId === 'papelera-azul') ||
         (id === 'juguete-plastico' && canecaId === 'papelera-azul') ||
         (id === 'envase-plastico' && canecaId === 'papelera-azul') ||
         (id === 'cucharilla-plastico' && canecaId === 'papelera-azul') ||
 
-        // Ordinarios
+        
         (id === 'cascaras' && canecaId === 'papelera-verde') ||
         (id === 'restos-comida' && canecaId === 'papelera-verde') ||
         (id === 'pañuelos' && canecaId === 'papelera-verde') ||
